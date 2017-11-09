@@ -41,9 +41,9 @@ header{
 }
 h1{
 	text-shadow: 3px 3px #B7B7B7;
-	font: georgia, sans-serif;
 	margin-top: 5px;
 	text-align: center;
+	font-family: "Nexa Black", sans-serif;
 }
 
 .subjects{
