@@ -1,30 +1,57 @@
 * {
-	font-family: georgia;
+	font-family: palatino;
 	background-color: gray;
 	color: white;
-	margin: 20px;
+	margin: 15px;
 	margin-top: 5px;
 	text-align: center;
-	padding: 7px;
-	
+	padding: 5px;
+	text-decoration:none
 }
+a{ 
+	text-decoration: none; 
+	color: lightgray;
+	margin: 2px;
+	margin-top: 2px;
+}
+
 p {
 	font-size: 20px;
 }
 
 img{
-	width: 30%;
-	height: 30%;
+	width: 40%;
+	height: 40%;
 }
+figure {
+	margin: 0;
+	padding: 0;
+}
+img:hover{
+	transform:scale(2,2);
+	transform-origin:-10 0;
+	border: 3px double gray;
+	background-color: white
+}
+
 header{
-	margin:2pz;
+	background-color: white;
+	color: gray;
+	text-align: center;
+}
+h1{
+	text-shadow: 3px 3px #B7B7B7;
+	font: georgia, sans-serif;
+	margin-top: 5px;
+	text-align: center;
 }
 
 .subjects{
-	color: #83FECF;
-	border: 0.5px solid #83FECF;
+	color: lightgray;
+	margin: 20px
 }
 
 #whole{
-	border: 0.5px solid white;
+	border-top: 6px double white;
+	border-bottom: 6px double white;
 }
