@@ -1,0 +1,30 @@
+* {
+	font-family: georgia;
+	background-color: gray;
+	color: white;
+	margin: 20px;
+	margin-top: 5px;
+	text-align: center;
+	padding: 7px;
+	
+}
+p {
+	font-size: 20px;
+}
+
+img{
+	width: 30%;
+	height: 30%;
+}
+header{
+	margin:2pz;
+}
+
+.subjects{
+	color: #83FECF;
+	border: 0.5px solid #83FECF;
+}
+
+#whole{
+	border: 0.5px solid white;
+}
